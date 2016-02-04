@@ -418,22 +418,22 @@
         parserRules: {
             classes: {
                 // (path_to_project/lib/css/wysiwyg-color.css)
-                "wysiwyg-color-silver" : 1,
-                "wysiwyg-color-gray" : 1,
-                "wysiwyg-color-white" : 1,
-                "wysiwyg-color-maroon" : 1,
-                "wysiwyg-color-red" : 1,
-                "wysiwyg-color-purple" : 1,
-                "wysiwyg-color-fuchsia" : 1,
-                "wysiwyg-color-green" : 1,
-                "wysiwyg-color-lime" : 1,
-                "wysiwyg-color-olive" : 1,
-                "wysiwyg-color-yellow" : 1,
-                "wysiwyg-color-navy" : 1,
-                "wysiwyg-color-blue" : 1,
-                "wysiwyg-color-teal" : 1,
-                "wysiwyg-color-aqua" : 1,
-                "wysiwyg-color-orange" : 1
+                "wysiwyg-color-silver" : 0,
+                "wysiwyg-color-gray" : 0,
+                "wysiwyg-color-white" : 0,
+                "wysiwyg-color-maroon" : 0,
+                "wysiwyg-color-red" : 0,
+                "wysiwyg-color-purple" : 0,
+                "wysiwyg-color-fuchsia" : 0,
+                "wysiwyg-color-green" : 0,
+                "wysiwyg-color-lime" : 0,
+                "wysiwyg-color-olive" : 0,
+                "wysiwyg-color-yellow" : 0,
+                "wysiwyg-color-navy" : 0,
+                "wysiwyg-color-blue" : 0,
+                "wysiwyg-color-teal" : 0,
+                "wysiwyg-color-aqua" : 0,
+                "wysiwyg-color-orange" : 0
             },
             tags: {
                 "b":  {},
@@ -464,11 +464,11 @@
                         href:   "url" // important to avoid XSS
                     }
                 },
-                "span": 1,
-                "div": 1,
+                "span": 0,
+                "div": 0,
                 // to allow save and edit files with code tag hacks
-                "code": 1,
-                "pre": 1
+                "code": 0,
+                "pre": 0
             }
         },
         stylesheets: ["./lib/css/wysiwyg-color.css"], // (path_to_project/lib/css/wysiwyg-color.css)
